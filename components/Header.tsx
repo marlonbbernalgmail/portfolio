@@ -2,7 +2,9 @@
 import React from "react";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
+
 import Link from "next/link";
+import MobileNav from "./MobileNav";
 
 export default function Header() {
   const pathname = usePathname();
@@ -36,6 +38,9 @@ export default function Header() {
           About Me
         </Link>
       </nav>
+      <div className="md:hidden flex items-center bg-[color:#fff1ed] p-2 rounded-full">
+        <MobileNav />
+      </div>
     </header>
   );
 }
