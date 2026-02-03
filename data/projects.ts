@@ -32,7 +32,7 @@ export const projectsData: Project[] = [
   category: 'SaaS Product',
   description:
     'A point-of-sale and operations management system built specifically for laundry and dry-cleaning businesses. Handles job intake, pricing, payments, shift tracking, and daily reporting, designed from real workflows inside an operating laundry business.',
-  techStack: ['React Native', 'Firestore', 'POS & Printer Integration','Mobile Application'],
+  techStack: ['React Native', 'Firebase', 'POS & Printer Integration','Mobile Application'],
   detailsLink: '#',
   details: {
     status: 'Live',
@@ -87,7 +87,7 @@ export const projectsData: Project[] = [
   techStack: [
     'React Native (Mobile)',
     'React / Next.js (Web)',
-    'Firestore',
+    'Firebase',
   ],
   detailsLink: '#',
   details: {
@@ -97,7 +97,7 @@ export const projectsData: Project[] = [
     problem:
       'Local grocery stores needed an affordable way to accept online orders while keeping inventory, fulfillment, and delivery workflows aligned across multiple platforms.',
     solution:
-      'Built a shared backend using Firestore with separate mobile and web clients. The mobile app handles customer ordering and delivery tracking, while the web app provides an admin interface for inventory, order management, and operational oversight.',
+      'Built a shared backend using Firebase with separate mobile and web clients. The mobile app handles customer ordering and delivery tracking, while the web app provides an admin interface for inventory, order management, and operational oversight.',
     keyCapabilities: [
       'Mobile app for customer ordering and delivery tracking',
       'Web-based admin dashboard',

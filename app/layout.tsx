@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PastelBackground from "@/components/PastelBackground";
+import { Analytics } from "@vercel/analytics/next"
 
 const inter = Inter({
   subsets: ["latin"],
@@ -30,6 +31,7 @@ export default function RootLayout({
         />
       </head>
       <body className={`${inter.variable} bg-background-light font-display antialiased`}>
+        <Analytics />
         <PastelBackground />
         <div className="relative flex h-auto min-h-screen w-full flex-col overflow-x-hidden">
           <Header />
