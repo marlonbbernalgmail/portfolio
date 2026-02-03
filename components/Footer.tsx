@@ -1,10 +1,12 @@
+import Image from 'next/image';
+
 export default function Footer() {
   return (
     <footer className="w-full bg-white border-t border-black/5 py-16 px-10">
       <div className="max-w-[1200px] mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
         <div className="flex flex-col gap-4 items-center md:items-start">
           <div className="flex items-center gap-3 text-black">
-            <img src="/profile/logo.svg" alt="Bernal Software Systems Logo" className="h-20 w-auto" />
+            <Image src="/profile/logo.svg" alt="Bernal Software Systems Logo" className="h-20 w-auto" width={80} height={80} />
           </div>
           <p className="text-black/40 text-sm max-w-[200px] text-center md:text-left">Built for operations, designed for people.</p>
         </div>

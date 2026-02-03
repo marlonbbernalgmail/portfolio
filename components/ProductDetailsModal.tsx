@@ -1,6 +1,6 @@
 "use client";
 
-type BadgeStatus = 'Live' | 'Beta' | 'Coming Soon';
+type BadgeStatus = 'Live' | 'Subscription' | 'Coming Soon';
 
 interface ProductDetailsModalProps {
   isOpen: boolean;
@@ -13,8 +13,8 @@ interface ProductDetailsModalProps {
   overview: string;
   features: string[];
   useCases: string[];
-  primaryActionLabel: string;
-  secondaryActionLabel: string;
+  primaryActionLabel?: string;
+  secondaryActionLabel?: string;
 }
 
 import React, { useState } from 'react';
@@ -30,8 +30,6 @@ export default function ProductDetailsModal({
   overview,
   features,
   useCases,
-  primaryActionLabel,
-  secondaryActionLabel,
 }: ProductDetailsModalProps) {
   const [selectedImage, setSelectedImage] = useState<string>(heroImage);
   React.useEffect(() => {

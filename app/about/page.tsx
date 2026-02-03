@@ -1,6 +1,4 @@
 import React from 'react';
-import { MdMail, MdDownload, MdLink } from 'react-icons/md';
-import { FaTerminal } from 'react-icons/fa';
 import { journeyData } from '@/data/journey';
 import { experienceData } from '@/data/experience';
 import { principlesData } from '@/data/principles';
