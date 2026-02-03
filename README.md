@@ -162,7 +162,7 @@ These features are intentionally not included in this initial version:
 - Payment integration
 - Backend API
 - Form submission handling
-- Blog functionality
+- Blog functionality !
 - User accounts
 
 ## Support
