@@ -99,7 +99,7 @@ npm run lint
 
 ## Tech Stack
 
-- Next.js 15 (App Router)
+- Next.js 16 (App Router)
 - TypeScript
 - Tailwind CSS
 - Static data (no backend)

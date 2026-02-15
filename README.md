@@ -4,7 +4,7 @@ A clean, static-first product catalog website built for showcasing software prod
 
 ## Features
 
-- **Modern Stack**: Built with Next.js 15, TypeScript, and Tailwind CSS
+- **Modern Stack**: Built with Next.js 16, TypeScript, and Tailwind CSS
 - **Static-First**: All data is stored in TypeScript files (no backend required)
 - **Responsive Design**: Mobile-friendly layouts with Tailwind CSS
 - **Clean UI**: White cards on soft pastel background with solid black text
@@ -132,7 +132,7 @@ All components are in `/components` and are fully typed with TypeScript:
 
 ## Tech Stack
 
-- **Framework**: Next.js 15 (App Router)
+- **Framework**: Next.js 16 (App Router)
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
 - **Fonts**: Inter (via Google Fonts)
