@@ -60,6 +60,13 @@ export default function MobileNav() {
               Projects
             </Link>
             <Link
+              href="/blog"
+              className={`block w-full text-lg font-bold transition-colors px-4 py-3 rounded-lg border ${pathname?.startsWith("/blog") ? "bg-[color:#ff7e67] text-white border-transparent hover:brightness-90" : "bg-white text-black border-black/5 hover:bg-[color:#ff7e67] hover:text-white"}`}
+              onClick={() => setOpen(false)}
+            >
+              Blog
+            </Link>
+            <Link
               href="/about"
               className={`block w-full text-lg font-bold transition-colors px-4 py-3 rounded-lg border ${pathname === "/about" ? "bg-[color:#ff7e67] text-white border-transparent hover:brightness-90" : "bg-white text-black border-black/5 hover:bg-[color:#ff7e67] hover:text-white"}`}
               onClick={() => setOpen(false)}

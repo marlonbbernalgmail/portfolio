@@ -31,6 +31,13 @@ export default function Header() {
           Projects
         </Link>
         <Link
+          href="/blog"
+          className="text-sm font-bold transition-colors"
+          style={{ color: pathname?.startsWith("/blog") ? "rgb(255, 126, 103)" : "#000" }}
+        >
+          Blog
+        </Link>
+        <Link
           href="/about"
           className="text-sm font-bold transition-colors"
           style={{ color: pathname === "/about" ? "rgb(255, 126, 103)" : "#000" }}
